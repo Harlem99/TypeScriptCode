@@ -1,0 +1,15 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "quotemark": [false],
+        "semicolon": [false], // 不加分号
+        "interface-name": [true, "never-prefix"], // 不加interface前缀
+        "object-literal-sort-keys": [false],
+        "no-console": false
+    },
+    "rulesDirectory": []
+}
